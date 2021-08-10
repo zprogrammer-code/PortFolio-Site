@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "learning boiotstrap-v5 with SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [
+    "bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap-5"
+  ],
+  "author": "Zprogrammewr",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
