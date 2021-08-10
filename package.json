@@ -18,7 +18,10 @@
   ],
   "author": "Zprogrammewr",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "5": "0.0.1",
+    "bootstrap": "^5.1.0",
     "sass": "^1.37.5"
   }
 }
