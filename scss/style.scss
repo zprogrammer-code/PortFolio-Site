@@ -1,3 +1,22 @@
  
  @use 'custom';
+
+//IMPORT THEW COMPONENTS
+
+@use 'components/animations';
+@use 'components/mixins';
+@use 'components/buttons';
+@use 'components/typography';
+ 
+//IMPORTT THE SECTIONS
+
+@use 'sections/_navbar';
+@use 'sections/_introsection';
+@use 'sections/_companies';
+@use 'sections/_services';
+@use 'sections/_testimonials';
+@use 'sections/_faq';
+@use 'sections/_portfolio';
+@use 'sections/_get-started';
+@use 'sections/_footer';
  
