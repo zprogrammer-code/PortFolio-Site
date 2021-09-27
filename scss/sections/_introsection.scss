@@ -1,23 +1,40 @@
+@use '../custom' as *;
+@use'../compenent/mixins' as *;
 
-.intro {
+.into-section {
+    @include gradient;
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%:
+}
+
+
+.intros {
 
     .video-box {
         position:relative;
-        // <-- #inlcude absoluteCenter -->
+        // <-- #include absoluteCenter -->
 
         a{
+            position:absolute;
 
             span {
 
                 i {
+                    @include absoluteCenter;
 
                     font-size:6rem;
+                    color: $secondary;
                     
                 }
-
             }
         }
-
-
     }
+}
+
+.border-animation {
+    position: absolute ;
+    width: 6rem;
+    height: 6rem;
+    border: 0.55rem solid $black;
 }
